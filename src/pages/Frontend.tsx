@@ -2,8 +2,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { Link } from "react-router-dom";
-import { ArrowLeft, Edit, FileText, Plus, Trash2, User } from "lucide-react";
+import { Edit, FileText, Plus, Trash2, User } from "lucide-react";
 import { useState } from "react";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -115,13 +114,6 @@ const Frontend = () => {
   return (
     <div className="min-h-screen bg-gray-50 py-8 px-4 sm:px-6 lg:px-8">
       <div className="max-w-5xl mx-auto">
-        <div className="mb-8">
-          <Link to="/" className="flex items-center text-blue-600 hover:text-blue-800 transition-colors">
-            <ArrowLeft className="mr-2 h-4 w-4" />
-            Back to Home
-          </Link>
-        </div>
-
         <div className="mb-8">
           <h1 className="text-3xl font-bold text-gray-900">Personal Blog Platform</h1>
           <p className="mt-2 text-gray-600">
